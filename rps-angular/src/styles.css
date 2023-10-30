@@ -1,0 +1,122 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background: url('src\assets\images\5073414.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+}
+.selection {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    color: #67875d;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 1px #79a06d, 
+        -1px 3px 1px #82ad75, 
+        -2px 5px 1px #8ebf80;
+  }
+
+h2{
+
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #121212;
+        text-align: center;
+        letter-spacing: 4px;
+        text-shadow: -1px 1px 0 #41ba45,
+                1px 1px 0 #c63d2b,
+               1px -1px 0 #42afac,
+              -1px -1px 0 #c6c23f;
+     
+}
+
+h3,p{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: floralwhite;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 1px 2px 8px #99ceff;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+    display: flex;
+}
+.container .section{
+    width: 250px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(41, 40, 40);
+    height: 120px;
+}
+.show i{
+    font-size: 100px;
+    color: orange;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+    padding: 10px;
+    margin: 20px;
+  }

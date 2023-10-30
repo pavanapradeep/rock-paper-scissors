@@ -1,0 +1,17 @@
+<div>
+  <h2>Welcome to Rock-Paper-Scissors world</h2>
+  <h2>Choose one of the options to start playing. Have fun!!!</h2>
+</div>
+<img src="../../assets/images/image.png" alt="Image" width="180" height="180">
+<div class = "user">    
+  <div class="selection">
+    <button (click)="playGame('ROCK')"> ROCK </button>
+    <button (click)="playGame('PAPER')"> PAPER </button>
+    <button (click)="playGame('SCISSORS')"> SCISSORS </button>
+  </div>
+  <div class="container-mt-3 row">
+      <p>User's Choice: {{ userChoice }}</p>
+      <p><span>Computer's Choice:</span> {{ computerChoice }}</p>
+      <p>Result: {{ gameResult }}</p>
+  </div>        
+</div>
