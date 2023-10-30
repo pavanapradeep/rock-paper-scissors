@@ -1,0 +1,14 @@
+Greetings!
+
+This is a simple implementation of Rock-Paper-Scissors game.
+- Backend - Spring Boot - 3.1.5 version
+- Frontend - Angular versions
+    Angular CLI: 16.2.8
+    Node: 18.17.0
+    Package Manager: npm 9.6.7
+    OS: win32 x64
+Flow of control:
+- The endpoint BASEURL/api/play in GameController.java is called with the User's choice.
+- Now, playGame() method in GameService.java is called with the User's choice.
+  Here, Computer's choice is generated using Random, and using determineWinner() method the gameResult is obtained.
+- CorsConfig.java is the Cross-Origin-Resource-Sharing configuration that is permitting cross-origin requests specifically for the "/api/game/play" endpoint from "http://localhost:4200", allowing "GET" and "POST" requests, and allowing credentials to be included.
